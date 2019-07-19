@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gecko/Code/tgdriver/ros_ws/devel/setup.sh
