@@ -1,0 +1,12 @@
+<launch>
+  <arg name="lidar1-ip" default="10.1.32.130" />
+  <arg name="lidar1-port" default="2111" />
+
+  <!-- LIDAR Node -->
+  <node pkg="lms1xx" name="lidar1" type="LMS1xx_node">
+    <param name="host" value="$(arg lidar1-ip)" />
+    <param name="port" value="$(arg lidar1-port)" />
+    <param name="publish_min_range_as_inf" value="false" />
+  </node>
+  
+</launch>
