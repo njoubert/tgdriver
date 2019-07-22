@@ -1,12 +1,25 @@
 <launch>
-  <arg name="lidar1-ip" default="10.1.32.130" />
-  <arg name="lidar1-port" default="2111" />
-
+  <arg name="lidar-ip" default="10.1.32.130" />
+  <arg name="lidar-port" default="2111" />
+  <arg name="gps-left-ip" default="10.1.32.120"/>
+  <arg name="gps-right-ip" default="10.1.32.121"/>
   <!-- LIDAR Node -->
-  <node pkg="lms1xx" name="lidar1" type="LMS1xx_node">
-    <param name="host" value="$(arg lidar1-ip)" />
-    <param name="port" value="$(arg lidar1-port)" />
+  <node pkg="lms1xx" name="lidar" type="LMS1xx_node" respawn="true">
+    <param name="host" value="$(arg lidar-ip)" />
+    <param name="port" value="$(arg lidar-port)" />
     <param name="publish_min_range_as_inf" value="false" />
   </node>
-  
+  <!-- GPS Nodes -->
+  <node pkg="piksi_multi_rtk_ros" type="piksi_multi" name="gps_left" output="screen" respawn="true">
+    <rosparam file="$(find piksi_multi_rtk_ros)/cfg/piksi_multi_driver_settings.yaml"/>
+    <param name="interface" value="tcp"/>
+    <param name="tcp_addr" value="$(arg gps-left-ip)"/>
+    <param name="base_station_mode" value="false"/>
+  </node>
+  <node pkg="piksi_multi_rtk_ros" type="piksi_multi" name="gps_right" respawn="true">
+    <rosparam file="$(find piksi_multi_rtk_ros)/cfg/piksi_multi_driver_settings.yaml"/>
+    <param name="interface" value="tcp"/>
+    <param name="tcp_addr" value="$(arg gps-right-ip)"/>
+    <param name="base_station_mode" value="false"/>
+  </node>
 </launch>

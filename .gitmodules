@@ -1,3 +1,6 @@
 [submodule "ros_ws/src/LMS1xx"]
 	path = ros_ws/src/LMS1xx
 	url = https://github.com/clearpathrobotics/LMS1xx.git
+[submodule "ros_ws/src/ethz_piksi_ros"]
+	path = ros_ws/src/ethz_piksi_ros
+	url = https://github.com/ethz-asl/ethz_piksi_ros
