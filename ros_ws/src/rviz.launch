@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="rviz" name="rviz" type="rviz" 
+	args="-d /home/gecko/Code/tgdriver/ros_ws/src/otto.rviz"
+	respawn="true">
+  </node>
+</launch>
