@@ -4,6 +4,7 @@
   <arg name="lidar-frame" default="lidar" />
   <arg name="gps-heading-ip" default="10.1.32.120"/>
   <arg name="gps-position-ip" default="10.1.32.121"/>
+  <arg name="gps-frame" default="gps"/>
   <!-- LIDAR Node -->
   <node pkg="lms1xx" name="lidar" type="LMS1xx_node" respawn="true">
     <param name="host" value="$(arg lidar-ip)" />
@@ -25,4 +26,5 @@
     <param name="base_station_mode" value="false"/>
   </node>
   <node pkg="tf" type="static_transform_publisher" name="lidar_broadcaster" args="1 0 0 0 0 0 vehicle $(arg lidar-frame) 100" />
+  <node pkg="tf" type="static_transform_publisher" name="gps_broadcaster" args="0 1 0 0 0 0 vehicle $(arg gps-frame) 100" />
 </launch>
