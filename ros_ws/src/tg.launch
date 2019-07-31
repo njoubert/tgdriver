@@ -13,7 +13,7 @@
     <param name="frame_id" value="$(arg lidar-frame)" />
   </node>
   <node pkg="laser_filters" type="scan_to_scan_filter_chain" name="laser_filter">
-    <rosparam command="load" file="laserscan_filter.yaml" />
+    <rosparam command="load" file="conf/laserscan_filter.yaml" />
   </node>
   <!-- GPS Nodes -->
   <node pkg="piksi_multi_rtk_ros" type="piksi_multi" name="gps_heading" output="screen" respawn="true">
