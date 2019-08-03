@@ -13,6 +13,8 @@ from xml.dom import minidom
 
 BRCMAP_KML_FILE = 'brcmap.kml'
 CACHE_DIR = 'static'
+HOSTNAME = 'www.gstatic.com'
+LOCALHOST = 'localhost'
 
 def eprint(*args, **kwargs):
     "Print to standard error"
@@ -28,7 +30,8 @@ def cache_content(link):
             os.makedirs(dir_to_create)
     urllib.request.urlretrieve(link, CACHE_DIR + path)
 
-def main():
+def main(port):
+    port = int(port)
     kml_doc = minidom.parse(BRCMAP_KML_FILE)
     links = kml_doc.getElementsByTagName('href')
 
@@ -40,10 +43,10 @@ def main():
         except Exception as e:
             eprint("Failed caching", originalLink, '(', e, ')')
         # Update link in XML
-        link.firstChild.data = originalLink.replace('www.gstatic.com', 'localhost:9090')
+        link.firstChild.data = originalLink.replace(HOSTNAME, LOCALHOST + ':' + str(port))
         # print('New link:', link.firstChild.data)
 
     print(kml_doc.toxml())
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1])
