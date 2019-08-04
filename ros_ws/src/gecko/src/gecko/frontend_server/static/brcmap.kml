@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
+<?xml version="1.0" ?><kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>2019 Unofficial Map of Black Rock City for Burning Man</name>
     <description><![CDATA[<<click arrow for more info<br>Theme Camp Submissions:  https://submit.unofficialbrcmap.com<br>Art Installation Submissions:  https://art.unofficialbrcmap.com<br><br>HOW TO USE THE MAP:<br>+ Search for camps or art before submitting <br>+ Search by camp/art names or descriptions<br>+ Click on pins for more info<br>+ Zoom in with the +/- buttons on the bottom to see details<br>+ Check/uncheck categories to see more or less pins/layers<br>+ Submissions/changes may not appear right away as they are manually added by volunteers; try refreshing your browser in a couple of hours<br><br>PLEASE NOTE:  This unofficial map of Black Rock City is intended to provide an approximate idea of where theme camps and art installations will be located at Burning Man in 2019. Pins DO NOT equal reserved space. These are approximate locations for registered theme camps and art installations who have volunteered to share their location. Remember, only the official Burning Man Placement Team determines the location for Theme Camps and only The ARTery (Artist Services) determines the location for Art. If your camp has been placed, you must ask the gate to let your Placer know you've arrived so they can place you. If you are not in an officially placed camp, be careful not to set up inside the blue flags of placed camps. If you are unsure, find and ask Placement to help you! For placed Art, please visit The ARTery during their open hours once you're on playa and you will be led to your exact placement.<br><br>Map data derived from the following information: http://innovate.burningman.org/dataset/<br><br>Brought to you by the Unofficial Map Team and YOU - all of our gracious contributors!<br><br>Unofficial Map Archive:<br>https://2018.unofficialbrcmap.com<br>https://2017.unofficialbrcmap.com<br>https://2016.unofficialbrcmap.com<br>https://2015.unofficialbrcmap.com<br>https://2014.unofficialbrcmap.com<br><br>email: feedback@unofficialbrcmap.com<br><br>Follow us on Facebook:  https://www.facebook.com/unofficialBRCmap]]></description>
@@ -7,7 +6,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/1027-biz-gas.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/1027-biz-gas.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -15,7 +14,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/1219-fac-wc-unisex.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/1219-fac-wc-unisex.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -23,7 +22,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/1417-trans-airport.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/1417-trans-airport.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -31,7 +30,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/1467-trans-tunnel.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/1467-trans-tunnel.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -40,7 +39,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -49,7 +48,7 @@
         <color>ff5b18c2</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -58,7 +57,7 @@
         <color>ff589d0f</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -67,7 +66,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -76,7 +75,7 @@
         <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -85,7 +84,7 @@
         <color>ff646000</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -94,7 +93,7 @@
         <color>ff1427a5</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -103,7 +102,7 @@
         <color>ffb73a67</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -112,7 +111,7 @@
         <color>ff177781</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -121,7 +120,7 @@
         <color>ff424242</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -130,7 +129,7 @@
         <color>ff000000</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -139,7 +138,7 @@
         <color>ff0051e6</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -148,7 +147,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -157,7 +156,7 @@
         <color>ffa79700</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -166,7 +165,7 @@
         <color>ff485579</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -175,7 +174,7 @@
         <color>ff9b5701</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -184,7 +183,7 @@
         <color>ff2bb4af</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -193,7 +192,7 @@
         <color>ff00d6ff</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -202,7 +201,7 @@
         <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -211,7 +210,7 @@
         <color>ff42b37c</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -220,7 +219,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -229,7 +228,7 @@
         <color>ff485579</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -238,7 +237,7 @@
         <color>ffab4939</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -247,7 +246,7 @@
         <color>ffff3100</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -257,7 +256,7 @@
         <color>fffff300</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -267,7 +266,7 @@
         <color>ff49ff00</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -277,7 +276,7 @@
         <color>ffff0092</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -287,7 +286,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -297,7 +296,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -310,7 +309,7 @@
         <color>ff007cf5</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -320,7 +319,7 @@
         <color>ff0000ff</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -330,7 +329,7 @@
         <color>ff00eaff</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://localhost:9090/static/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
