@@ -1,0 +1,6 @@
+<launch>
+  <arg name="frontend-port" default="9090" />
+  <node pkg="gecko" type="frontend_server" name="frontend_server" respawn="false">
+    <param name="port" value="$(arg frontend-port)" />
+  </node>  
+</launch>
