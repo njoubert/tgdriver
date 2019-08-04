@@ -62,7 +62,7 @@ def gps_reader():
     rospy.init_node('gps_subscriber', disable_signals=True)
     position_sub = rospy.Subscriber('/gps_position/navsatfix_best_fix', NavSatFix,
                                     position_callback)
-    heading_sub = rospy.Subscriber('/gps_position/baseline_heading', BaselineHeading,
+    heading_sub = rospy.Subscriber('/gps_heading/baseline_heading', BaselineHeading,
                                     heading_callback)
 
 @app.route('/tg.kml')
@@ -70,7 +70,7 @@ def position():
   global guarded_pose
   lat, lng, heading = guarded_pose.get()
   return POSE_TEMPLATE.format(port=PORT, lat=lat, lng=lng,
-    heading=HEADING_OFFSET_DEG + math.degrees(heading))
+    heading=HEADING_OFFSET_DEG + heading)
 
 def position_callback(m):
   global guarded_pose
@@ -79,8 +79,9 @@ def position_callback(m):
 
 def heading_callback(m):
   global guarded_pose
-  print "Heading callback invoked."
-  guarded_pose.set_headinglng(m.heading)
+  heading = m.heading / 1000.
+  print "Heading callback invoked, heading: " + str(heading)
+  guarded_pose.set_heading(heading)
 
 def main():
     print('Starting GPS subscriber...')
