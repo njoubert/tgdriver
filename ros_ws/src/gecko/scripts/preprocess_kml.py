@@ -3,6 +3,13 @@
 """
 This script expects a 'static' folder to be in the same directory
 and will download content into it.
+
+Run:
+
+    python3 preprocess_kml.py 9090 > brcmap_preprocessed.kml
+
+to generate a KML version where file are fetched from localhost:9090.
+The script will download and cache the content under the static folder.
 """
 
 import sys
