@@ -17,10 +17,10 @@ POSE_TEMPLATE = """<?xml version="1.0" encoding="UTF-8"?>
     <Document>
       <Style id="gecko_icon">
         <IconStyle>
-          <scale>5</scale>
+          <scale>2</scale>
           <heading>{heading}</heading>
           <Icon>
-            <href>http://localhost:{port}/static/gecko_icon.png</href>
+            <href>http://localhost:{port}/static/geckoLogo_green.png</href>
           </Icon>
         </IconStyle>
       </Style>
@@ -34,7 +34,7 @@ POSE_TEMPLATE = """<?xml version="1.0" encoding="UTF-8"?>
     </Document>
     </kml>"""
 
-HEADING_OFFSET_DEG = 100
+HEADING_OFFSET_DEG = 0
 
 class GuardedPose(object):
   def __init__(self):
