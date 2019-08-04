@@ -5,4 +5,4 @@ import rospy
 
 if __name__ == '__main__':
   port = rospy.get_param('/frontend_server/port', None)
-  gecko.frontend_server.app.app.run(port=port)
+  gecko.frontend_server.app.main()
