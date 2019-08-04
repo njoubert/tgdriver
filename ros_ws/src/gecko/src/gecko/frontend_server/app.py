@@ -2,8 +2,6 @@ import flask
 import math
 import time
 
-app = flask.Flask(__name__)
-
 POSE_TEMPLATE = """<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"
  xmlns:gx="http://www.google.com/kml/ext/2.2">
@@ -13,7 +11,7 @@ POSE_TEMPLATE = """<?xml version="1.0" encoding="UTF-8"?>
       <scale>5</scale>
       <heading>{heading}</heading>
       <Icon>
-        <href>file://home/gecko/shared/gecko_icon.png</href>
+        <href>http://localhost:9090/static/gecko_icon.png</href>
       </Icon>
     </IconStyle>
   </Style>
@@ -40,6 +38,8 @@ RADIUS_LAT = 9e-4
 RADIUS_LNG = 1e-3
 START_TIME = time.time()
 HEADING_OFFSET_DEG = 240
+
+app = flask.Flask(__name__, static_url_path='/static')
 
 @app.route('/tg.kml')
 def position():
